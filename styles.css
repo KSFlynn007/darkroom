@@ -21,7 +21,7 @@ header {
 }
 
 .image:hover {
-  cursor: url("img/redo_photo.png"), auto;
+  cursor: url("./img/redo_photo.png"), auto;
 }
 
 p {
