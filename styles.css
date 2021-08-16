@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  text-align: center;
+  color: #a20b1a;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.image {
+  background-color: white;
+  padding: 10px 10px 100px 10px;
+  background-color: white;
+  border: 20px solid hsl(354, 87%, 34%, 85%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image:hover {
+  cursor: url("/img/redo_photo.png"), auto;
+}
+
+p {
+  grid-row-start: 2;
+  text-align: center;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  cursor: default;
+}
+
+footer {
+  margin-top: 70px;
+  text-align: right;
+  font-size: 12px;
+  font-style: italic;
+}
+
+@media (max-width: 650px) and (min-width: 500px) {
+  .image {
+    width: 60%;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .image {
+    width: 70%;
+    padding-bottom: 40px;
+  }
+}
